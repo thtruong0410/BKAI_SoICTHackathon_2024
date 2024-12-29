@@ -38,8 +38,8 @@ Dự án đã đạt giải **Top 6 private test** trong cuộc thi **BKAI Naver
       - **Dòng 52:** Đặt đường dẫn folder chứa dữ liệu sau khi crop vào biến `new_path`.
 2. **Lựa chọn 6000 mẫu từ dữ liệu đã crop:**
     - Sử dụng file `source_code/get_dataset_from_cropdata.py`:
-      - **Dòng 62:** Đặt đường dẫn folder chứa ảnh crop vào biến `image_dir`.
-      - **Dòng 63:** Đặt đường dẫn folder chứa nhãn crop vào biến `label_dir`.
+      - **Dòng 62:** Đặt đường dẫn folder chứa ảnh đã crop vào biến `image_dir`.
+      - **Dòng 63:** Đặt đường dẫn folder chứa nhãn đãcrop vào biến `label_dir`.
       - **Dòng 64:** Đặt đường dẫn folder chứa 6000 mẫu đã chọn vào biến `output_dir`.
 3. **Gộp dữ liệu:**
     - Copy thủ công 6000 mẫu đã chọn vào dataset gốc để tạo bộ dữ liệu gộp.
