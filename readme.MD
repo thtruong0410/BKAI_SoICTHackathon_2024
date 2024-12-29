@@ -3,6 +3,9 @@
 ## Giới thiệu
 Đồ án này tập trung vào việc phát hiện các phương tiện hybrid sử dụng sự kết hợp giữa các mô hình YOLO và Co_DETR để tối ưu hóa quá trình phát hiện và phân loại các phương tiện. Mục tiêu chính của dự án là phát triển một hệ thống có khả năng phát hiện phương tiện hybrid từ video với độ chính xác cao, hỗ trợ các ứng dụng trong giao thông và an ninh. Dự án sử dụng hai mô hình chính: YOLO (You Only Look Once) cho phát hiện đối tượng nhanh chóng và Co_DETR (Conditional DETR) để cải thiện độ chính xác và khả năng xử lý các tình huống phức tạp.
 
+**Kết quả đạt được:**  
+Dự án đã đạt giải **Top 6 private test** trong cuộc thi **BKAI Naver 2024** track **Vehicle Detection**.
+
 ---
 # Hướng dẫn triển khai và xử lý dữ liệu
 
