@@ -1,0 +1,11 @@
+opencv-python
+albumentations
+matplotlib
+numpy
+glob2
+pandas
+ultralytics
+tqdm
+torch
+torchvision
+ensemble_boxes
